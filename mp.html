@@ -16,103 +16,186 @@
       </div>
   <div class="col-lg-8 ">
       <table class="table table-striped">
-          <thead>
+     
+        <thead>
            <tr>
              <th scope="col">#</th>
              <th type= "text" scope="col" style="color: #00a565 " id="camGenel" >Çam(A/B - T)</th>
-             <th scope="col" style="color: #00a565">Ladin(A/B - T)</th>
-             <th scope="col" style="color: #00a565">Meşe(A/B - P)</th>
-             <th scope="col" style="color: #00a565">Kayın(A/B - P)</th>
-             <th scope="col" style="color: #00a565">İroko(A/B - P)</th>
-             <th scope="col" style="color: #00a565">Kestane(A/B - P)</th>
+             <th scope="col" style="color: #00a565"  id="ladinGenel">Ladin(A/B - T)</th>
+             <th scope="col" style="color: #00a565"  id="meseGenel">Meşe(A/B - P)</th>
+             <th scope="col" style="color: #00a565"  id="kayinGenel">Kayın(A/B - P)</th>
+             <th scope="col" style="color: #00a565"  id="irokoGenel">İroko(A/B - P)</th>
+             <th scope="col" style="color: #00a565"  id="kestaneGenel">Kestane(A/B - P)</th>
            </tr>
           </thead>
           <tbody>
+              <tr>
+                  <th scope="row" > 
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                      <label class="btn btn-secondary active" id="opt1">
+                        <input type="radio" name="options" id="option1" autocomplete="off" checked > A/B
+                      </label>
+                      <label class="btn btn-secondary" id="opt2">
+                        <input type="radio" name="options2" id="option2" autocomplete="off"> B/B
+                      </label>
+                    
+                    </div>
+                  </th>
+                  <td> <img src="img/camab.jpg" alt="cam masif panel ab kalite" class="rounded" id="camResim"></td>
+                  <td> <img src="img/ladinab.jpg" alt="ladin masif panel ab kalite" class="rounded" id="ladinResim"></td>
+                  <td> <img src="img/meseab.jpg" alt="mese masif panel ab kalite" class="rounded" id="meseResim"></td>
+                  <td> <img src="img/kayinab.jpg" alt="kayin masif panel ab kalite" class="rounded" id="kayinResim"></td>
+                  <td> <img src="img/irokoab.jpg" alt="iroko masif panel ab kalite" class="rounded" id="irokoResim"></td>
+                  <td> <img src="img/kestaneab.jpg" alt="kestane masif panel ab kalite" class="rounded" id="kestaneResim"></td>
+                </tr>
             <tr>
-                <th scope="row" >121cm x 20cm x 18mm</th>
-                <td>47,86₺</td>
-                <td>40,50₺</td>
-                <td>64,46₺</td>
-                <td>52,06₺</td>
-                <td>109,39₺</td>
-                <td>53,86₺</td>
+                <th scope="row" >
+                    <div class="dropdown">
+                        <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                            20cm x 50cm x 18mm
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <button class="dropdown-item" type="button" id="20x50x18"> 20cm x 50cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="20x100x18"> 20cm x 100cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="20x150x18"> 20cm x 150cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="20x200x18"> 20cm x 200cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="20x250x18"> 20cm x 250cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="20x300x18"> 20cm x 300cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="20x350x18"> 20cm x 350cm x 18mm</button>
+                        </div>
+                      </div>
+                </th>
+                <td id="cam20">20.18₺</td>
+                <td id="ladin20">17.08₺</td>
+                <td id="mese20">	27.18₺</td>
+                <td id="kayin20">	21.95₺</td>
+                <td id="iroko20">	46.12₺</td>
+                <td id="kestane20">22.71₺</td>
               </tr>
            <tr>
-             <th scope="row" style="color: #00a566">121cm x 30cm x 18mm</th>
-             <td>71,80₺</td>
-             <td>60,76₺</td>
-             <td>96,69₺</td>
-             <td>78,09₺</td>
-             <td>164,08₺</td>
-             <td>80,79₺</td>
+              <th scope="row" >
+                  <div class="dropdown">
+                      <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                          40cm x 50cm x 18mm
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button" id="40x50x18"> 40cm x 50cm x 18mm</button>
+                        <button class="dropdown-item" type="button" id="40x100x18"> 40cm x 100cm x 18mm</button>
+                        <button class="dropdown-item" type="button" id="40x150x18"> 40cm x 150cm x 18mm</button>
+                        <button class="dropdown-item" type="button" id="40x200x18"> 40cm x 200cm x 18mm</button>
+                        <button class="dropdown-item" type="button" id="40x250x18"> 40cm x 250cm x 18mm</button>
+                        <button class="dropdown-item" type="button" id="40x300x18"> 40cm x 300cm x 18mm</button>
+                        <button class="dropdown-item" type="button" id="40x350x18"> 40cm x 350cm x 18mm</button>
+                      </div>
+                    </div>
+              </th>
+              <td id="cam40">40.36₺</td>
+              <td id="ladin40">	34.16₺</td>
+              <td id="mese40">	54.36₺</td>
+              <td id="kayin40">43.90₺</td>
+              <td id="iroko40">92.24₺</td>
+              <td id="kestane40">45.42₺</td>
            </tr>
            <tr>
-             <th scope="row" id="kirk" >121cm x 40cm x 18mm</th>
-             <td id="kirkCam">95,73₺</td>
-             <td>81,01₺</td>
-             <td>128,93₺</td>
-             <td>104,12₺</td>
-             <td>218,78₺</td>
-             <td>107,72₺</td>
-           </tr>
-           <tr>
-             <th scope="row" style="color: #00a565">121cm x 50cm x 18mm</th>
-             <td>119,66₺</td>
-             <td>101,27₺</td>
-             <td>161,16₺</td>
-             <td>130,16₺</td>
-             <td>273,47₺</td>
-             <td>134,65₺</td>
-           </tr>
-           <tr>
-             <th scope="row" >121cm x 60cm x 18mm</th>
-             <td>143,60₺</td>
-             <td>121,52₺</td>
-             <td>193,39₺</td>
-             <td>156,19₺</td>
-             <td>328,17₺</td>
-             <td>161,58₺</td>
-           </tr>
-           <tr>
-             <th scope="row" style="color: #00a565">121cm x 70cm x 18mm</th>
-             <td>167,53₺</td>
-             <td>141,78₺</td>
-             <td>225,62₺</td>
-             <td>182,22₺</td>
-             <td>382,86₺</td>
-             <td>188,51₺</td>
-           </tr>
-           <tr>
-              <th scope="row" >121cm x 80cm x 18mm</th>
-              <td>191,46₺</td>
-              <td>162,03₺</td>
-              <td>257,86₺</td>
-              <td>208,25₺</td>
-             <td>437,56₺</td>
-             <td>215,44₺</td>
+              <th scope="row" >
+                  <div class="dropdown">
+                      <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                          60cm x 50cm x 18mm
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                        <button class="dropdown-item" type="button" id="60x50x18"> 60cm x 50cm x 18mm</button>
+                        <button class="dropdown-item" type="button" id="60x100x18"> 60cm x 100cm x 18mm</button>
+                        <button class="dropdown-item" type="button" id="60x150x18"> 60cm x 150cm x 18mm</button>
+                        <button class="dropdown-item" type="button" id="60x600x18"> 60cm x 200cm x 18mm</button>
+                        <button class="dropdown-item" type="button" id="60x250x18"> 60cm x 250cm x 18mm</button>
+                        <button class="dropdown-item" type="button" id="60x300x18"> 60cm x 300cm x 18mm</button>
+                        <button class="dropdown-item" type="button" id="60x350x18"> 60cm x 350cm x 18mm</button>
+                      </div>
+                    </div>
+              </th>
+              <td id="cam60">60.54₺</td>
+              <td id="ladin60">51.24₺</td>
+              <td id="mese60">81.54₺</td>
+              <td id="kayin60">65.85₺</td>
+              <td id="iroko60">138.36₺</td>
+              <td id="kestane60">68.12₺</td>
             </tr>
             <tr>
-                <th scope="row" style="color: #00a565">121cm x 90cm x 18mm</th>
-                <td id="deneme">215,40₺</td>
-                <td>182,29₺</td>
-                <td>290,09₺</td>
-                <td>234,28₺</td>
-                <td>492,25₺</td>
-                <td>242,37₺</td>
+                <th scope="row" >
+                    <div class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                            80cm x 50cm x 18mm
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                          <button class="dropdown-item" type="button" id="80x50x18"> 80cm x 50cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="80x100x18"> 80cm x 100cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="80x150x18"> 80cm x 150cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="80x200x18"> 80cm x 200cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="80x250x18"> 80cm x 250cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="80x300x18"> 80cm x 300cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="80x350x18"> 80cm x 350cm x 18mm</button>
+                        </div>
+                      </div>
+                </th>
+                <td id="cam80">80.73₺</td>
+                <td id="ladin80">68.32₺</td>
+                <td id="mese80">108.72₺</td>
+                <td id="kayin80">87.80₺</td>
+                <td id="iroko80">184.48₺</td>
+                <td id="kestane80">	90.83₺</td>
+             </tr>
+             <tr>
+                <th scope="row" >
+                    <div class="dropdown">
+                        <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                            100cm x 50cm x 18mm
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu5">
+                          <button class="dropdown-item" type="button" id="100x50x18"> 100cm x 50cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="100x100x18"> 100cm x 100cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="100x150x18"> 100cm x 150cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="100x200x18"> 100cm x 200cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="100x250x18"> 100cm x 250cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="100x300x18"> 100cm x 300cm x 18mm</button>
+                          <button class="dropdown-item" type="button" id="100x350x18"> 100cm x 350cm x 18mm</button>
+                        </div>
+                      </div>
+                </th>
+                <td id="cam100">100.91₺</td>
+                <td id="ladin100">85.40₺</td>
+                <td id="mese100">135.90₺</td>
+                <td id="kayin100">109.75₺</td>
+                <td id="iroko100">230.60₺</td>
+                <td id="kestane100">113.54₺</td>
               </tr>
+              <tr>
+                  <th scope="row" >
+                      <div class="dropdown">
+                          <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                              120cm x 50cm x 18mm
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenu6">
+                            <button class="dropdown-item" type="button" id="120x50x18"> 120cm x 50cm x 18mm</button>
+                            <button class="dropdown-item" type="button" id="120x100x18"> 120cm x 100cm x 18mm</button>
+                            <button class="dropdown-item" type="button" id="120x150x18"> 120cm x 150cm x 18mm</button>
+                            <button class="dropdown-item" type="button" id="120x200x18"> 120cm x 200cm x 18mm</button>
+                            <button class="dropdown-item" type="button" id="120x250x18"> 120cm x 250cm x 18mm</button>
+                            <button class="dropdown-item" type="button" id="120x300x18"> 120cm x 300cm x 18mm</button>
+                            <button class="dropdown-item" type="button" id="120x350x18"> 120cm x 350cm x 18mm</button>
+                          </div>
+                        </div>
+                  </th>
+                  <td id="cam120">121.09₺</td>
+                  <td id="ladin120">102.48₺</td>
+                  <td id="mese120">	163.08₺</td>
+                  <td id="kayin120">131.70₺</td>
+                  <td id="iroko120">276.72₺</td>
+                  <td id="kestane120">	136.25₺</td>
+               </tr>
+           
            </tbody>
           
-           <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
-            </label>
-            <label class="btn btn-secondary" id="asd">
-              <input type="radio" name="options" id="option2" autocomplete="off"> B/B
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option3" autocomplete="off"> 28mm
-            </label>
-          </div>
+          
           <!--
              <tr>
                   <th scope="row" >Notlar</th>
@@ -129,62 +212,1068 @@
   </div>
     
 </div>
-<div class="row">
-  <div class="col-lg-2"></div>
-  <div class="col-lg-8">
-      <div class="row">
-          <div class="col-md-1">.col-md-1</div>
-          <div class="col-md-1">.col-md-1</div>
-          <div class="col-md-1">.col-md-1</div>
-         
-          <div class="col-md-1">.col-md-1</div>
-          
-          <div class="col-md-1">.col-md-1</div>
-          <div class="col-md-2">  <span class="align-center">
-              <div class="dropdown " style="align-content: center">
-                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-                  <span class="caret"></span></button>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                  </ul>
-                </div>
-    
-          </span></div>
-          <div class="col-md-1">.col-md-1</div>
-         
-         
-        </div>
-    
-   
-       
-    
-  </div>
-  <div class="col-lg-2"></div>
-</div>
+
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
  <script>
+   var bbAktif=false;
+   var aaAktif=true;
     function setText(id,newvalue) {
     var s= document.getElementById(id);
     s.innerHTML = newvalue;
-  }    
+  }
+    function calculate(id,cins,olcu,kalite){
+      var array=olcu.split("x");
+
+      if(kalite=="A"){
+        if (cins == "cam"){
+            var fiyat= array[0] * array[1] * 148.72 * 1.18 * 1.15;
+            $(id).text((fiyat/10000).toFixed(2)+"₺")
+        }
+        if(cins == "ladin"){
+          var fiyat= array[0] * array[1] * 125.86* 1.18 * 1.15;
+            $(id).text((fiyat/10000).toFixed(2)+"₺")
+        }
+        if(cins == "kayin"){
+          var fiyat= array[0] * array[1] * 161.76* 1.18 * 1.15;
+            $(id).text((fiyat/10000).toFixed(2)+"₺")
+        }
+        if(cins == "iroko"){
+          var fiyat= array[0] * array[1] * 339.87* 1.18 * 1.15;
+            $(id).text((fiyat/10000).toFixed(2)+"₺")
+        }
+        if(cins == "kestane"){
+          var fiyat= array[0] * array[1] * 167.34* 1.18 * 1.15;
+            $(id).text((fiyat/10000).toFixed(2)+"₺")
+        }
+        if(cins == "mese"){
+          var fiyat= array[0] * array[1] * 200.29* 1.18 * 1.15;
+            $(id).text((fiyat/10000).toFixed(2)+"₺")
+        }
+      }
+
+      else{
+        if (cins == "cam"){
+            var fiyat= array[0] * array[1] * 123.93* 1.18 * 1.15;
+            $(id).text((fiyat/10000).toFixed(2)+"₺")
+        }
+        if(cins == "ladin"){
+          var fiyat= array[0] * array[1] * 109.45* 1.18 * 1.15;
+            $(id).text((fiyat/10000).toFixed(2)+"₺")
+        }
+        if(cins == "kayin"){
+          var fiyat= array[0] * array[1] * 134.8* 1.18 * 1.15;
+            $(id).text((fiyat/10000).toFixed(2)+"₺")
+        }
+        if(cins == "iroko"){
+          var fiyat= array[0] * array[1] * 283.23* 1.18 * 1.15;
+            $(id).text((fiyat/10000).toFixed(2)+"₺")
+        }
+        if(cins == "kestane"){
+          var fiyat= array[0] * array[1] * 139.45* 1.18 * 1.15;
+            $(id).text((fiyat/10000).toFixed(2)+"₺")
+        }
+        if(cins == "mese"){
+          var fiyat= array[0] * array[1] * 166.91* 1.18 * 1.15;
+            $(id).text((fiyat/10000).toFixed(2)+"₺")
+        }
+      }
+     
+    }
   
-  $("#asd").click(function(){
-    //setText("camGenel","ÇAM(B/B -T)");
+
+
+    
+  
+    
+    
+  $("#opt2").click(function(){
+    bbAktif=true;
+    aaAktif=false;
     $("#camGenel").text("Çam(B/B - T)");
-    $("#camGenel").css("color","#5D3417" )
-  })
-  //document.getElementById("option2").onclick = function(){
+    $("#camGenel").css("color","#5D3417");
+    $("#ladinGenel").text("Ladin(B/B - T)");
+    $("#ladinGenel").css("color","#5D3417");
+    $("#meseGenel").text("Meşe(B/B - P)");
+    $("#meseGenel").css("color","#5D3417");
+    $("#kayinGenel").text("Kayın(B/B - P)");
+    $("#kayinGenel").css("color","#5D3417");
+    $("#kestaneGenel").text("Kestane(B/B - P)");
+    $("#kestaneGenel").css("color","#5D3417");
+    $("#irokoGenel").text("İroko(B/B - P)");
+    $("#irokoGenel").css("color","#5D3417");
+    $('#20x50x18').trigger('click');
+    $('#40x50x18').trigger('click');
+    $('#60x50x18').trigger('click');
+    $('#80x50x18').trigger('click');
+    $('#100x50x18').trigger('click');
+    $('#120x50x18').trigger('click');
+
+    $("#camResim").attr("src","img/cambb.jpg");
+    $("#ladinResim").attr("src","img/ladinbb.jpg");
+    $("#meseResim").attr("src","img/mesebb.jpg");
+    $("#kayinResim").attr("src","img/kayinbb.jpg");
+    $("#irokoResim").attr("src","img/irokobb.jpg");
+    $("#kestaneResim").attr("src","img/kestanebb.jpg");
+  });
+  $("#opt1").click(function(){
+    bbAktif=false;
+    aaAktif=true;
+    $("#camGenel").text("Çam(A/B - T)");
+    $("#camGenel").css("color","#00a566" );
+    $("#ladinGenel").text("Ladin(A/B - T)");
+    $("#ladinGenel").css("color","#00a566");
+    $("#meseGenel").text("Meşe(A/B - P)");
+    $("#meseGenel").css("color","#00a566");
+    $("#kayinGenel").text("Kayın(A/B - P)");
+    $("#kayinGenel").css("color","#00a566");
+    $("#kestaneGenel").text("Kestane(A/B - P)");
+    $("#kestaneGenel").css("color","#00a566");
+    $("#irokoGenel").text("İroko(A/B - P)");
+    $("#irokoGenel").css("color","#00a566");
+    $('#20x50x18').trigger('click');
+    $('#40x50x18').trigger('click');
+    $('#60x50x18').trigger('click');
+    $('#80x50x18').trigger('click');
+    $('#100x50x18').trigger('click');
+    $('#120x50x18').trigger('click');
+
+     $("#camResim").attr("src","img/camab.jpg");
+    $("#ladinResim").attr("src","img/ladinab.jpg");
+    $("#meseResim").attr("src","img/meseab.jpg");
+    $("#kayinResim").attr("src","img/kayinab.jpg");
+    $("#irokoResim").attr("src","img/irokoab.jpg");
+    $("#kestaneResim").attr("src","img/kestaneab.jpg");
+  });
   
-   //setText("camGenel","ÇAM(B/B -T)");
-  //cam.innerText = "ÇAM(B/B -T)";
+  $("#20x50x18").click(function(){
+    $("#dropdownMenu1").text("20cm x 50cm x 18mm");
+    if(aaAktif){
+      calculate("#cam20","cam","20x50x18","A");
+      calculate("#ladin20","ladin","20x50x18","A");
+      calculate("#mese20","mese","20x50x18","A");
+      calculate("#kayin20","kayin","20x50x18","A");
+      calculate("#iroko20","iroko","20x50x18","A");
+      calculate("#kestane20","kestane","20x50x18","A");
+    }
+      
+    else{
+      calculate("#cam20","cam","20x50x18","B");
+      calculate("#ladin20","ladin","20x50x18","B");
+      calculate("#mese20","mese","20x50x18","B");
+      calculate("#kayin20","kayin","20x50x18","B");
+      calculate("#iroko20","iroko","20x50x18","B");
+      calculate("#kestane20","kestane","20x50x18","B");
+    }
+      
+  });
+  $("#20x100x18").click(function(){
+    $("#dropdownMenu1").text("20cm x 100cm x 18mm");
+    if(aaAktif){
+      calculate("#cam20","cam","20x100x18","A");
+      calculate("#ladin20","ladin","20x100x18","A");
+      calculate("#mese20","mese","20x100x18","A");
+      calculate("#kayin20","kayin","20x100x18","A");
+      calculate("#iroko20","iroko","20x100x18","A");
+      calculate("#kestane20","kestane","20x100x18","A");
+    }
+      
+    else{
+      calculate("#cam20","cam","20x100x18","B");
+      calculate("#ladin20","ladin","20x100x18","B");
+      calculate("#mese20","mese","20x100x18","B");
+      calculate("#kayin20","kayin","20x100x18","B");
+      calculate("#iroko20","iroko","20x100x18","B");
+      calculate("#kestane20","kestane","20x100x18","B");
+    }
+
+  });
+  $("#20x150x18").click(function(){
+    $("#dropdownMenu1").text("20cm x 150cm x 18mm");
+    if(aaAktif){
+      calculate("#cam20","cam","20x150x18","A");
+      calculate("#ladin20","ladin","20x150x18","A");
+      calculate("#mese20","mese","20x150x18","A");
+      calculate("#kayin20","kayin","20x150x18","A");
+      calculate("#iroko20","iroko","20x150x18","A");
+      calculate("#kestane20","kestane","20x150x18","A");
+    }
+      
+    else{
+      calculate("#cam20","cam","20x150x18","B");
+      calculate("#ladin20","ladin","20x150x18","B");
+      calculate("#mese20","mese","20x150x18","B");
+      calculate("#kayin20","kayin","20x150x18","B");
+      calculate("#iroko20","iroko","20x150x18","B");
+      calculate("#kestane20","kestane","20x150x18","B");
+    }
+
+  });
+  $("#20x200x18").click(function(){
+    $("#dropdownMenu1").text("20cm x 200cm x 18mm");
+    if(aaAktif){
+      calculate("#cam20","cam","20x200x18","A");
+      calculate("#ladin20","ladin","20x200x18","A");
+      calculate("#mese20","mese","20x200x18","A");
+      calculate("#kayin20","kayin","20x200x18","A");
+      calculate("#iroko20","iroko","20x200x18","A");
+      calculate("#kestane20","kestane","20x200x18","A");
+    }
+      
+    else{
+      calculate("#cam20","cam","20x200x18","B");
+      calculate("#ladin20","ladin","20x200x18","B");
+      calculate("#mese20","mese","20x200x18","B");
+      calculate("#kayin20","kayin","20x200x18","B");
+      calculate("#iroko20","iroko","20x200x18","B");
+      calculate("#kestane20","kestane","20x200x18","B");
+    }
+
+  });
+
+   $("#20x250x18").click(function(){
+    $("#dropdownMenu1").text("20cm x 250cm x 18mm");
+    if(aaAktif){
+      calculate("#cam20","cam","20x250x18","A");
+      calculate("#ladin20","ladin","20x250x18","A");
+      calculate("#mese20","mese","20x250x18","A");
+      calculate("#kayin20","kayin","20x250x18","A");
+      calculate("#iroko20","iroko","20x250x18","A");
+      calculate("#kestane20","kestane","20x250x18","A");
+    }
+      
+    else{
+      calculate("#cam20","cam","20x250x18","B");
+      calculate("#ladin20","ladin","20x250x18","B");
+      calculate("#mese20","mese","20x250x18","B");
+      calculate("#kayin20","kayin","20x250x18","B");
+      calculate("#iroko20","iroko","20x250x18","B");
+      calculate("#kestane20","kestane","20x250x18","B");
+    }
+
+  });
+  $("#20x300x18").click(function(){
+    $("#dropdownMenu1").text("20cm x 300cm x 18mm");
+    if(aaAktif){
+      calculate("#cam20","cam","20x300x18","A");
+      calculate("#ladin20","ladin","20x300x18","A");
+      calculate("#mese20","mese","20x300x18","A");
+      calculate("#kayin20","kayin","20x300x18","A");
+      calculate("#iroko20","iroko","20x300x18","A");
+      calculate("#kestane20","kestane","20x300x18","A");
+    }
+      
+    else{
+      calculate("#cam20","cam","20x300x18","B");
+      calculate("#ladin20","ladin","20x300x18","B");
+      calculate("#mese20","mese","20x300x18","B");
+      calculate("#kayin20","kayin","20x300x18","B");
+      calculate("#iroko20","iroko","20x300x18","B");
+      calculate("#kestane20","kestane","20x300x18","B");
+    }
+
+  });
+  $("#20x350x18").click(function(){
+    $("#dropdownMenu1").text("20cm x 350cm x 18mm");
+    if(aaAktif){
+      calculate("#cam20","cam","20x350x18","A");
+      calculate("#ladin20","ladin","20x350x18","A");
+      calculate("#mese20","mese","20x350x18","A");
+      calculate("#kayin20","kayin","20x350x18","A");
+      calculate("#iroko20","iroko","20x350x18","A");
+      calculate("#kestane20","kestane","20x350x18","A");
+    }
+      
+    else{
+      calculate("#cam20","cam","20x350x18","B");
+      calculate("#ladin20","ladin","20x350x18","B");
+      calculate("#mese20","mese","20x350x18","B");
+      calculate("#kayin20","kayin","20x350x18","B");
+      calculate("#iroko20","iroko","20x350x18","B");
+      calculate("#kestane20","kestane","20x350x18","B");
+    }
+
+  });
   
-  //}
+
+  // 40 x 50 x 18 BASLANGIC -----------------
+
+  $("#40x50x18").click(function(){
+    $("#dropdownMenu2").text("40cm x 50cm x 18mm");
+    if(aaAktif){
+      calculate("#cam40","cam","40x50x18","A");
+      calculate("#ladin40","ladin","40x50x18","A");
+      calculate("#mese40","mese","40x50x18","A");
+      calculate("#kayin40","kayin","40x50x18","A");
+      calculate("#iroko40","iroko","40x50x18","A");
+      calculate("#kestane40","kestane","40x50x18","A");
+    }
+      
+    else{
+      calculate("#cam40","cam","40x50x18","B");
+      calculate("#ladin40","ladin","40x50x18","B");
+      calculate("#mese40","mese","40x50x18","B");
+      calculate("#kayin40","kayin","40x50x18","B");
+      calculate("#iroko40","iroko","40x50x18","B");
+      calculate("#kestane40","kestane","40x50x18","B");
+    }
+      
+  });
+
+  $("#40x100x18").click(function(){
+    $("#dropdownMenu2").text("40cm x 100cm x 18mm");
+    if(aaAktif){
+      calculate("#cam40","cam","40x100x18","A");
+      calculate("#ladin40","ladin","40x100x18","A");
+      calculate("#mese40","mese","40x100x18","A");
+      calculate("#kayin40","kayin","40x100x18","A");
+      calculate("#iroko40","iroko","40x100x18","A");
+      calculate("#kestane40","kestane","40x100x18","A");
+    }
+      
+    else{
+      calculate("#cam40","cam","40x100x18","B");
+      calculate("#ladin40","ladin","40x100x18","B");
+      calculate("#mese40","mese","40x100x18","B");
+      calculate("#kayin40","kayin","40x100x18","B");
+      calculate("#iroko40","iroko","40x100x18","B");
+      calculate("#kestane40","kestane","40x100x18","B");
+    }
+      
+  });
+
+  $("#40x150x18").click(function(){
+    $("#dropdownMenu2").text("40cm x 150cm x 18mm");
+    if(aaAktif){
+      calculate("#cam40","cam","40x150x18","A");
+      calculate("#ladin40","ladin","40x150x18","A");
+      calculate("#mese40","mese","40x150x18","A");
+      calculate("#kayin40","kayin","40x150x18","A");
+      calculate("#iroko40","iroko","40x150x18","A");
+      calculate("#kestane40","kestane","40x150x18","A");
+    }
+      
+    else{
+      calculate("#cam40","cam","40x150x18","B");
+      calculate("#ladin40","ladin","40x150x18","B");
+      calculate("#mese40","mese","40x150x18","B");
+      calculate("#kayin40","kayin","40x150x18","B");
+      calculate("#iroko40","iroko","40x150x18","B");
+      calculate("#kestane40","kestane","40x150x18","B");
+    }
+      
+  });
+
+   $("#40x200x18").click(function(){
+    $("#dropdownMenu2").text("40cm x 200cm x 18mm");
+    if(aaAktif){
+      calculate("#cam40","cam","40x200x18","A");
+      calculate("#ladin40","ladin","40x200x18","A");
+      calculate("#mese40","mese","40x200x18","A");
+      calculate("#kayin40","kayin","40x200x18","A");
+      calculate("#iroko40","iroko","40x200x18","A");
+      calculate("#kestane40","kestane","40x200x18","A");
+    }
+      
+    else{
+      calculate("#cam40","cam","40x200x18","B");
+      calculate("#ladin40","ladin","40x200x18","B");
+      calculate("#mese40","mese","40x200x18","B");
+      calculate("#kayin40","kayin","40x200x18","B");
+      calculate("#iroko40","iroko","40x200x18","B");
+      calculate("#kestane40","kestane","40x200x18","B");
+    }
+      
+  });
+
+  $("#40x250x18").click(function(){
+    $("#dropdownMenu2").text("40cm x 250cm x 18mm");
+    if(aaAktif){
+      calculate("#cam40","cam","40x250x18","A");
+      calculate("#ladin40","ladin","40x250x18","A");
+      calculate("#mese40","mese","40x250x18","A");
+      calculate("#kayin40","kayin","40x250x18","A");
+      calculate("#iroko40","iroko","40x250x18","A");
+      calculate("#kestane40","kestane","40x250x18","A");
+    }
+      
+    else{
+      calculate("#cam40","cam","40x250x18","B");
+      calculate("#ladin40","ladin","40x250x18","B");
+      calculate("#mese40","mese","40x250x18","B");
+      calculate("#kayin40","kayin","40x250x18","B");
+      calculate("#iroko40","iroko","40x250x18","B");
+      calculate("#kestane40","kestane","40x250x18","B");
+    }
+      
+  });
+
+ $("#40x300x18").click(function(){
+    $("#dropdownMenu2").text("40cm x 300cm x 18mm");
+    if(aaAktif){
+      calculate("#cam40","cam","40x300x18","A");
+      calculate("#ladin40","ladin","40x300x18","A");
+      calculate("#mese40","mese","40x300x18","A");
+      calculate("#kayin40","kayin","40x300x18","A");
+      calculate("#iroko40","iroko","40x300x18","A");
+      calculate("#kestane40","kestane","40x300x18","A");
+    }
+      
+    else{
+      calculate("#cam40","cam","40x300x18","B");
+      calculate("#ladin40","ladin","40x300x18","B");
+      calculate("#mese40","mese","40x300x18","B");
+      calculate("#kayin40","kayin","40x300x18","B");
+      calculate("#iroko40","iroko","40x300x18","B");
+      calculate("#kestane40","kestane","40x300x18","B");
+    }
+      
+  });
+
+  $("#40x350x18").click(function(){
+    $("#dropdownMenu2").text("40cm x 350cm x 18mm");
+    if(aaAktif){
+      calculate("#cam40","cam","40x350x18","A");
+      calculate("#ladin40","ladin","40x350x18","A");
+      calculate("#mese40","mese","40x350x18","A");
+      calculate("#kayin40","kayin","40x350x18","A");
+      calculate("#iroko40","iroko","40x350x18","A");
+      calculate("#kestane40","kestane","40x350x18","A");
+    }
+      
+    else{
+      calculate("#cam40","cam","40x350x18","B");
+      calculate("#ladin40","ladin","40x350x18","B");
+      calculate("#mese40","mese","40x350x18","B");
+      calculate("#kayin40","kayin","40x350x18","B");
+      calculate("#iroko40","iroko","40x350x18","B");
+      calculate("#kestane40","kestane","40x350x18","B");
+    }
+      
+  });
+ 
+ // 60 x 50 18 BASLANGIC ----------------------
+
+   $("#60x50x18").click(function(){
+    $("#dropdownMenu3").text("60cm x 50cm x 18mm");
+    if(aaAktif){
+      calculate("#cam60","cam","60x50x18","A");
+      calculate("#ladin60","ladin","60x50x18","A");
+      calculate("#mese60","mese","60x50x18","A");
+      calculate("#kayin60","kayin","60x50x18","A");
+      calculate("#iroko60","iroko","60x50x18","A");
+      calculate("#kestane60","kestane","60x50x18","A");
+    }
+      
+    else{
+      calculate("#cam60","cam","60x50x18","B");
+      calculate("#ladin60","ladin","60x50x18","B");
+      calculate("#mese60","mese","60x50x18","B");
+      calculate("#kayin60","kayin","60x50x18","B");
+      calculate("#iroko60","iroko","60x50x18","B");
+      calculate("#kestane60","kestane","60x50x18","B");
+    }
+      
+  });
+
+   $("#60x100x18").click(function(){
+    $("#dropdownMenu3").text("60cm x 100cm x 18mm");
+    if(aaAktif){
+      calculate("#cam60","cam","60x100x18","A");
+      calculate("#ladin60","ladin","60x100x18","A");
+      calculate("#mese60","mese","60x100x18","A");
+      calculate("#kayin60","kayin","60x100x18","A");
+      calculate("#iroko60","iroko","60x100x18","A");
+      calculate("#kestane60","kestane","60x100x18","A");
+    }
+      
+    else{
+      calculate("#cam60","cam","60x100x18","B");
+      calculate("#ladin60","ladin","60x100x18","B");
+      calculate("#mese60","mese","60x100x18","B");
+      calculate("#kayin60","kayin","60x100x18","B");
+      calculate("#iroko60","iroko","60x100x18","B");
+      calculate("#kestane60","kestane","60x100x18","B");
+    }
+      
+  });
+
+  $("#60x150x18").click(function(){
+    $("#dropdownMenu3").text("60cm x 150cm x 18mm");
+    if(aaAktif){
+      calculate("#cam60","cam","60x150x18","A");
+      calculate("#ladin60","ladin","60x150x18","A");
+      calculate("#mese60","mese","60x150x18","A");
+      calculate("#kayin60","kayin","60x150x18","A");
+      calculate("#iroko60","iroko","60x150x18","A");
+      calculate("#kestane60","kestane","60x150x18","A");
+    }
+      
+    else{
+      calculate("#cam60","cam","60x150x18","B");
+      calculate("#ladin60","ladin","60x150x18","B");
+      calculate("#mese60","mese","60x150x18","B");
+      calculate("#kayin60","kayin","60x150x18","B");
+      calculate("#iroko60","iroko","60x150x18","B");
+      calculate("#kestane60","kestane","60x150x18","B");
+    }
+      
+  });
+ 
+  $("#60x200x18").click(function(){
+    $("#dropdownMenu3").text("60cm x 200cm x 18mm");
+    if(aaAktif){
+      calculate("#cam60","cam","60x200x18","A");
+      calculate("#ladin60","ladin","60x200x18","A");
+      calculate("#mese60","mese","60x200x18","A");
+      calculate("#kayin60","kayin","60x200x18","A");
+      calculate("#iroko60","iroko","60x200x18","A");
+      calculate("#kestane60","kestane","60x200x18","A");
+    }
+      
+    else{
+      calculate("#cam60","cam","60x200x18","B");
+      calculate("#ladin60","ladin","60x200x18","B");
+      calculate("#mese60","mese","60x200x18","B");
+      calculate("#kayin60","kayin","60x200x18","B");
+      calculate("#iroko60","iroko","60x200x18","B");
+      calculate("#kestane60","kestane","60x200x18","B");
+    }
+      
+  });
+
+  $("#60x250x18").click(function(){
+    $("#dropdownMenu3").text("60cm x 250cm x 18mm");
+    if(aaAktif){
+      calculate("#cam60","cam","60x250x18","A");
+      calculate("#ladin60","ladin","60x250x18","A");
+      calculate("#mese60","mese","60x250x18","A");
+      calculate("#kayin60","kayin","60x250x18","A");
+      calculate("#iroko60","iroko","60x250x18","A");
+      calculate("#kestane60","kestane","60x250x18","A");
+    }
+      
+    else{
+      calculate("#cam60","cam","60x250x18","B");
+      calculate("#ladin60","ladin","60x250x18","B");
+      calculate("#mese60","mese","60x250x18","B");
+      calculate("#kayin60","kayin","60x250x18","B");
+      calculate("#iroko60","iroko","60x250x18","B");
+      calculate("#kestane60","kestane","60x250x18","B");
+    }
+      
+  });
+
+  $("#60x300x18").click(function(){
+    $("#dropdownMenu3").text("60cm x 300cm x 18mm");
+    if(aaAktif){
+      calculate("#cam60","cam","60x300x18","A");
+      calculate("#ladin60","ladin","60x300x18","A");
+      calculate("#mese60","mese","60x300x18","A");
+      calculate("#kayin60","kayin","60x300x18","A");
+      calculate("#iroko60","iroko","60x300x18","A");
+      calculate("#kestane60","kestane","60x300x18","A");
+    }
+      
+    else{
+      calculate("#cam60","cam","60x300x18","B");
+      calculate("#ladin60","ladin","60x300x18","B");
+      calculate("#mese60","mese","60x300x18","B");
+      calculate("#kayin60","kayin","60x300x18","B");
+      calculate("#iroko60","iroko","60x300x18","B");
+      calculate("#kestane60","kestane","60x300x18","B");
+    }
+      
+  });
+  $("#60x350x18").click(function(){
+    $("#dropdownMenu3").text("60cm x 350cm x 18mm");
+    if(aaAktif){
+      calculate("#cam60","cam","60x350x18","A");
+      calculate("#ladin60","ladin","60x350x18","A");
+      calculate("#mese60","mese","60x350x18","A");
+      calculate("#kayin60","kayin","60x350x18","A");
+      calculate("#iroko60","iroko","60x350x18","A");
+      calculate("#kestane60","kestane","60x350x18","A");
+    }
+      
+    else{
+      calculate("#cam60","cam","60x350x18","B");
+      calculate("#ladin60","ladin","60x350x18","B");
+      calculate("#mese60","mese","60x350x18","B");
+      calculate("#kayin60","kayin","60x350x18","B");
+      calculate("#iroko60","iroko","60x350x18","B");
+      calculate("#kestane60","kestane","60x350x18","B");
+    }
+      
+  });
+  
+  // 80 x 50 x 18 BASLANGIC -------------------------
+
+  $("#80x50x18").click(function(){
+    $("#dropdownMenu4").text("80cm x 50cm x 18mm");
+    if(aaAktif){
+      calculate("#cam80","cam","80x50x18","A");
+      calculate("#ladin80","ladin","80x50x18","A");
+      calculate("#mese80","mese","80x50x18","A");
+      calculate("#kayin80","kayin","80x50x18","A");
+      calculate("#iroko80","iroko","80x50x18","A");
+      calculate("#kestane80","kestane","80x50x18","A");
+    }
+      
+    else{
+      calculate("#cam80","cam","80x50x18","B");
+      calculate("#ladin80","ladin","80x50x18","B");
+      calculate("#mese80","mese","80x50x18","B");
+      calculate("#kayin80","kayin","80x50x18","B");
+      calculate("#iroko80","iroko","80x50x18","B");
+      calculate("#kestane80","kestane","80x50x18","B");
+    }
+      
+  });
+
+  $("#80x100x18").click(function(){
+    $("#dropdownMenu4").text("80cm x 100cm x 18mm");
+    if(aaAktif){
+      calculate("#cam80","cam","80x100x18","A");
+      calculate("#ladin80","ladin","80x100x18","A");
+      calculate("#mese80","mese","80x100x18","A");
+      calculate("#kayin80","kayin","80x100x18","A");
+      calculate("#iroko80","iroko","80x100x18","A");
+      calculate("#kestane80","kestane","80x100x18","A");
+    }
+      
+    else{
+      calculate("#cam80","cam","80x100x18","B");
+      calculate("#ladin80","ladin","80x100x18","B");
+      calculate("#mese80","mese","80x100x18","B");
+      calculate("#kayin80","kayin","80x100x18","B");
+      calculate("#iroko80","iroko","80x100x18","B");
+      calculate("#kestane80","kestane","80x100x18","B");
+    }
+      
+  });
+
+  $("#80x150x18").click(function(){
+    $("#dropdownMenu4").text("80cm x 150cm x 18mm");
+    if(aaAktif){
+      calculate("#cam80","cam","80x150x18","A");
+      calculate("#ladin80","ladin","80x150x18","A");
+      calculate("#mese80","mese","80x150x18","A");
+      calculate("#kayin80","kayin","80x150x18","A");
+      calculate("#iroko80","iroko","80x150x18","A");
+      calculate("#kestane80","kestane","80x150x18","A");
+    }
+      
+    else{
+      calculate("#cam80","cam","80x150x18","B");
+      calculate("#ladin80","ladin","80x150x18","B");
+      calculate("#mese80","mese","80x150x18","B");
+      calculate("#kayin80","kayin","80x150x18","B");
+      calculate("#iroko80","iroko","80x150x18","B");
+      calculate("#kestane80","kestane","80x150x18","B");
+    }
+      
+  });
+
+  
+  $("#80x200x18").click(function(){
+    $("#dropdownMenu4").text("80cm x 200cm x 18mm");
+    if(aaAktif){
+      calculate("#cam80","cam","80x200x18","A");
+      calculate("#ladin80","ladin","80x200x18","A");
+      calculate("#mese80","mese","80x200x18","A");
+      calculate("#kayin80","kayin","80x200x18","A");
+      calculate("#iroko80","iroko","80x200x18","A");
+      calculate("#kestane80","kestane","80x200x18","A");
+    }
+      
+    else{
+      calculate("#cam80","cam","80x200x18","B");
+      calculate("#ladin80","ladin","80x200x18","B");
+      calculate("#mese80","mese","80x200x18","B");
+      calculate("#kayin80","kayin","80x200x18","B");
+      calculate("#iroko80","iroko","80x200x18","B");
+      calculate("#kestane80","kestane","80x200x18","B");
+    }
+      
+  });
+
+  $("#80x250x18").click(function(){
+    $("#dropdownMenu4").text("80cm x 250cm x 18mm");
+    if(aaAktif){
+      calculate("#cam80","cam","80x250x18","A");
+      calculate("#ladin80","ladin","80x250x18","A");
+      calculate("#mese80","mese","80x250x18","A");
+      calculate("#kayin80","kayin","80x250x18","A");
+      calculate("#iroko80","iroko","80x250x18","A");
+      calculate("#kestane80","kestane","80x250x18","A");
+    }
+      
+    else{
+      calculate("#cam80","cam","80x250x18","B");
+      calculate("#ladin80","ladin","80x250x18","B");
+      calculate("#mese80","mese","80x250x18","B");
+      calculate("#kayin80","kayin","80x250x18","B");
+      calculate("#iroko80","iroko","80x250x18","B");
+      calculate("#kestane80","kestane","80x250x18","B");
+    }
+      
+  });
+
+  $("#80x300x18").click(function(){
+    $("#dropdownMenu4").text("80cm x 300cm x 18mm");
+    if(aaAktif){
+      calculate("#cam80","cam","80x300x18","A");
+      calculate("#ladin80","ladin","80x300x18","A");
+      calculate("#mese80","mese","80x300x18","A");
+      calculate("#kayin80","kayin","80x300x18","A");
+      calculate("#iroko80","iroko","80x300x18","A");
+      calculate("#kestane80","kestane","80x300x18","A");
+    }
+      
+    else{
+      calculate("#cam80","cam","80x300x18","B");
+      calculate("#ladin80","ladin","80x300x18","B");
+      calculate("#mese80","mese","80x300x18","B");
+      calculate("#kayin80","kayin","80x300x18","B");
+      calculate("#iroko80","iroko","80x300x18","B");
+      calculate("#kestane80","kestane","80x300x18","B");
+    }
+      
+  });
+  $("#80x350x18").click(function(){
+    $("#dropdownMenu4").text("80cm x 350cm x 18mm");
+    if(aaAktif){
+      calculate("#cam80","cam","80x350x18","A");
+      calculate("#ladin80","ladin","80x350x18","A");
+      calculate("#mese80","mese","80x350x18","A");
+      calculate("#kayin80","kayin","80x350x18","A");
+      calculate("#iroko80","iroko","80x350x18","A");
+      calculate("#kestane80","kestane","80x350x18","A");
+    }
+      
+    else{
+      calculate("#cam80","cam","80x350x18","B");
+      calculate("#ladin80","ladin","80x350x18","B");
+      calculate("#mese80","mese","80x350x18","B");
+      calculate("#kayin80","kayin","80x350x18","B");
+      calculate("#iroko80","iroko","80x350x18","B");
+      calculate("#kestane80","kestane","80x350x18","B");
+    }
+      
+  });
+  
+
+  // 100 x 50 x 18 baslangic ----------------
+
+   $("#100x50x18").click(function(){
+    $("#dropdownMenu5").text("100cm x 50cm x 18mm");
+    if(aaAktif){
+      calculate("#cam100","cam","100x50x18","A");
+      calculate("#ladin100","ladin","100x50x18","A");
+      calculate("#mese100","mese","100x50x18","A");
+      calculate("#kayin100","kayin","100x50x18","A");
+      calculate("#iroko100","iroko","100x50x18","A");
+      calculate("#kestane100","kestane","100x50x18","A");
+    }
+      
+    else{
+      calculate("#cam100","cam","100x50x18","B");
+      calculate("#ladin100","ladin","100x50x18","B");
+      calculate("#mese100","mese","100x50x18","B");
+      calculate("#kayin100","kayin","100x50x18","B");
+      calculate("#iroko100","iroko","100x50x18","B");
+      calculate("#kestane100","kestane","100x50x18","B");
+    }
+      
+  });
+
+    $("#100x100x18").click(function(){
+    $("#dropdownMenu5").text("100cm x 100cm x 18mm");
+    if(aaAktif){
+      calculate("#cam100","cam","100x100x18","A");
+      calculate("#ladin100","ladin","100x100x18","A");
+      calculate("#mese100","mese","100x100x18","A");
+      calculate("#kayin100","kayin","100x100x18","A");
+      calculate("#iroko100","iroko","100x100x18","A");
+      calculate("#kestane100","kestane","100x100x18","A");
+    }
+      
+    else{
+      calculate("#cam100","cam","100x100x18","B");
+      calculate("#ladin100","ladin","100x100x18","B");
+      calculate("#mese100","mese","100x100x18","B");
+      calculate("#kayin100","kayin","100x100x18","B");
+      calculate("#iroko100","iroko","100x100x18","B");
+      calculate("#kestane100","kestane","100x100x18","B");
+    }
+      
+  });
+  $("#100x150x18").click(function(){
+    $("#dropdownMenu5").text("100cm x 150cm x 18mm");
+    if(aaAktif){
+      calculate("#cam100","cam","100x150x18","A");
+      calculate("#ladin100","ladin","100x150x18","A");
+      calculate("#mese100","mese","100x150x18","A");
+      calculate("#kayin100","kayin","100x150x18","A");
+      calculate("#iroko100","iroko","100x150x18","A");
+      calculate("#kestane100","kestane","100x150x18","A");
+    }
+      
+    else{
+      calculate("#cam100","cam","100x150x18","B");
+      calculate("#ladin100","ladin","100x150x18","B");
+      calculate("#mese100","mese","100x150x18","B");
+      calculate("#kayin100","kayin","100x150x18","B");
+      calculate("#iroko100","iroko","100x150x18","B");
+      calculate("#kestane100","kestane","100x150x18","B");
+    }
+      
+  });
+  $("#100x200x18").click(function(){
+    $("#dropdownMenu5").text("100cm x 200cm x 18mm");
+    if(aaAktif){
+      calculate("#cam100","cam","100x200x18","A");
+      calculate("#ladin100","ladin","100x200x18","A");
+      calculate("#mese100","mese","100x200x18","A");
+      calculate("#kayin100","kayin","100x200x18","A");
+      calculate("#iroko100","iroko","100x200x18","A");
+      calculate("#kestane100","kestane","100x200x18","A");
+    }
+      
+    else{
+      calculate("#cam100","cam","100x200x18","B");
+      calculate("#ladin100","ladin","100x200x18","B");
+      calculate("#mese100","mese","100x200x18","B");
+      calculate("#kayin100","kayin","100x200x18","B");
+      calculate("#iroko100","iroko","100x200x18","B");
+      calculate("#kestane100","kestane","100x200x18","B");
+    }
+      
+  });
+  $("#100x250x18").click(function(){
+    $("#dropdownMenu5").text("100cm x 250cm x 18mm");
+    if(aaAktif){
+      calculate("#cam100","cam","100x250x18","A");
+      calculate("#ladin100","ladin","100x250x18","A");
+      calculate("#mese100","mese","100x250x18","A");
+      calculate("#kayin100","kayin","100x250x18","A");
+      calculate("#iroko100","iroko","100x250x18","A");
+      calculate("#kestane100","kestane","100x250x18","A");
+    }
+      
+    else{
+      calculate("#cam100","cam","100x250x18","B");
+      calculate("#ladin100","ladin","100x250x18","B");
+      calculate("#mese100","mese","100x250x18","B");
+      calculate("#kayin100","kayin","100x250x18","B");
+      calculate("#iroko100","iroko","100x250x18","B");
+      calculate("#kestane100","kestane","100x250x18","B");
+    }
+      
+  });
+  $("#100x300x18").click(function(){
+    $("#dropdownMenu5").text("100cm x 300cm x 18mm");
+    if(aaAktif){
+      calculate("#cam100","cam","100x300x18","A");
+      calculate("#ladin100","ladin","100x300x18","A");
+      calculate("#mese100","mese","100x300x18","A");
+      calculate("#kayin100","kayin","100x300x18","A");
+      calculate("#iroko100","iroko","100x300x18","A");
+      calculate("#kestane100","kestane","100x300x18","A");
+    }
+      
+    else{
+      calculate("#cam100","cam","100x300x18","B");
+      calculate("#ladin100","ladin","100x300x18","B");
+      calculate("#mese100","mese","100x300x18","B");
+      calculate("#kayin100","kayin","100x300x18","B");
+      calculate("#iroko100","iroko","100x300x18","B");
+      calculate("#kestane100","kestane","100x300x18","B");
+    }
+      
+  });
+
+  $("#100x350x18").click(function(){
+    $("#dropdownMenu5").text("100cm x 350cm x 18mm");
+    if(aaAktif){
+      calculate("#cam100","cam","100x350x18","A");
+      calculate("#ladin100","ladin","100x350x18","A");
+      calculate("#mese100","mese","100x350x18","A");
+      calculate("#kayin100","kayin","100x350x18","A");
+      calculate("#iroko100","iroko","100x350x18","A");
+      calculate("#kestane100","kestane","100x350x18","A");
+    }
+      
+    else{
+      calculate("#cam100","cam","100x350x18","B");
+      calculate("#ladin100","ladin","100x350x18","B");
+      calculate("#mese100","mese","100x350x18","B");
+      calculate("#kayin100","kayin","100x350x18","B");
+      calculate("#iroko100","iroko","100x350x18","B");
+      calculate("#kestane100","kestane","100x350x18","B");
+    }
+      
+  });
+
+// 120 x 50 x 18 BASLANGIC ---------------
+
+     $("#120x50x18").click(function(){
+    $("#dropdownMenu6").text("120cm x 50cm x 18mm");
+    if(aaAktif){
+      calculate("#cam120","cam","120x50x18","A");
+      calculate("#ladin120","ladin","120x50x18","A");
+      calculate("#mese120","mese","120x50x18","A");
+      calculate("#kayin120","kayin","120x50x18","A");
+      calculate("#iroko120","iroko","120x50x18","A");
+      calculate("#kestane120","kestane","120x50x18","A");
+    }
+      
+    else{
+      calculate("#cam120","cam","120x50x18","B");
+      calculate("#ladin120","ladin","120x50x18","B");
+      calculate("#mese120","mese","120x50x18","B");
+      calculate("#kayin120","kayin","120x50x18","B");
+      calculate("#iroko120","iroko","120x50x18","B");
+      calculate("#kestane120","kestane","120x50x18","B");
+    }
+      
+  });
+
+   $("#120x100x18").click(function(){
+    $("#dropdownMenu6").text("120cm x 100cm x 18mm");
+    if(aaAktif){
+      calculate("#cam120","cam","120x100x18","A");
+      calculate("#ladin120","ladin","120x100x18","A");
+      calculate("#mese120","mese","120x100x18","A");
+      calculate("#kayin120","kayin","120x100x18","A");
+      calculate("#iroko120","iroko","120x100x18","A");
+      calculate("#kestane120","kestane","120x100x18","A");
+    }
+      
+    else{
+      calculate("#cam120","cam","120x100x18","B");
+      calculate("#ladin120","ladin","120x100x18","B");
+      calculate("#mese120","mese","120x100x18","B");
+      calculate("#kayin120","kayin","120x100x18","B");
+      calculate("#iroko120","iroko","120x100x18","B");
+      calculate("#kestane120","kestane","120x100x18","B");
+    }
+      
+  });
+
+  $("#120x150x18").click(function(){
+    $("#dropdownMenu6").text("120cm x 150cm x 18mm");
+    if(aaAktif){
+      calculate("#cam120","cam","120x150x18","A");
+      calculate("#ladin120","ladin","120x150x18","A");
+      calculate("#mese120","mese","120x150x18","A");
+      calculate("#kayin120","kayin","120x150x18","A");
+      calculate("#iroko120","iroko","120x150x18","A");
+      calculate("#kestane120","kestane","120x150x18","A");
+    }
+      
+    else{
+      calculate("#cam120","cam","120x150x18","B");
+      calculate("#ladin120","ladin","120x150x18","B");
+      calculate("#mese120","mese","120x150x18","B");
+      calculate("#kayin120","kayin","120x150x18","B");
+      calculate("#iroko120","iroko","120x150x18","B");
+      calculate("#kestane120","kestane","120x150x18","B");
+    }
+      
+  });
+
+  $("#120x200x18").click(function(){
+    $("#dropdownMenu6").text("120cm x 200cm x 18mm");
+    if(aaAktif){
+      calculate("#cam120","cam","120x200x18","A");
+      calculate("#ladin120","ladin","120x200x18","A");
+      calculate("#mese120","mese","120x200x18","A");
+      calculate("#kayin120","kayin","120x200x18","A");
+      calculate("#iroko120","iroko","120x200x18","A");
+      calculate("#kestane120","kestane","120x200x18","A");
+    }
+      
+    else{
+      calculate("#cam120","cam","120x200x18","B");
+      calculate("#ladin120","ladin","120x200x18","B");
+      calculate("#mese120","mese","120x200x18","B");
+      calculate("#kayin120","kayin","120x200x18","B");
+      calculate("#iroko120","iroko","120x200x18","B");
+      calculate("#kestane120","kestane","120x200x18","B");
+    }
+      
+  });
+
+  $("#120x250x18").click(function(){
+    $("#dropdownMenu6").text("120cm x 250cm x 18mm");
+    if(aaAktif){
+      calculate("#cam120","cam","120x250x18","A");
+      calculate("#ladin120","ladin","120x250x18","A");
+      calculate("#mese120","mese","120x250x18","A");
+      calculate("#kayin120","kayin","120x250x18","A");
+      calculate("#iroko120","iroko","120x250x18","A");
+      calculate("#kestane120","kestane","120x250x18","A");
+    }
+      
+    else{
+      calculate("#cam120","cam","120x250x18","B");
+      calculate("#ladin120","ladin","120x250x18","B");
+      calculate("#mese120","mese","120x250x18","B");
+      calculate("#kayin120","kayin","120x250x18","B");
+      calculate("#iroko120","iroko","120x250x18","B");
+      calculate("#kestane120","kestane","120x250x18","B");
+    }
+      
+  });
+
+  $("#120x300x18").click(function(){
+    $("#dropdownMenu6").text("120cm x 300cm x 18mm");
+    if(aaAktif){
+      calculate("#cam120","cam","120x300x18","A");
+      calculate("#ladin120","ladin","120x300x18","A");
+      calculate("#mese120","mese","120x300x18","A");
+      calculate("#kayin120","kayin","120x300x18","A");
+      calculate("#iroko120","iroko","120x300x18","A");
+      calculate("#kestane120","kestane","120x300x18","A");
+    }
+      
+    else{
+      calculate("#cam120","cam","120x300x18","B");
+      calculate("#ladin120","ladin","120x300x18","B");
+      calculate("#mese120","mese","120x300x18","B");
+      calculate("#kayin120","kayin","120x300x18","B");
+      calculate("#iroko120","iroko","120x300x18","B");
+      calculate("#kestane120","kestane","120x300x18","B");
+    }
+      
+  });
+
+  $("#120x350x18").click(function(){
+    $("#dropdownMenu6").text("120cm x 350cm x 18mm");
+    if(aaAktif){
+      calculate("#cam120","cam","120x350x18","A");
+      calculate("#ladin120","ladin","120x350x18","A");
+      calculate("#mese120","mese","120x350x18","A");
+      calculate("#kayin120","kayin","120x350x18","A");
+      calculate("#iroko120","iroko","120x350x18","A");
+      calculate("#kestane120","kestane","120x350x18","A");
+    }
+      
+    else{
+      calculate("#cam120","cam","120x350x18","B");
+      calculate("#ladin120","ladin","120x350x18","B");
+      calculate("#mese120","mese","120x350x18","B");
+      calculate("#kayin120","kayin","120x350x18","B");
+      calculate("#iroko120","iroko","120x350x18","B");
+      calculate("#kestane120","kestane","120x350x18","B");
+    }
+      
+  });
   </script>
 </body>
 </html>
