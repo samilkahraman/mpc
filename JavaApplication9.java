@@ -19,8 +19,8 @@ public class JavaApplication9 {
                     double en=0.2;
                     double boy=0.5;
                     double oran=2;
-                    double kalinlik18=125.86;
-                    double kalinlik28=186.9;
+                    double kalinlik18=139.45;
+                    double kalinlik28=206.59;
                     
                     for(int i=0; i<6; i++){
                         for(int j=0;j<6;j++){
