@@ -6,16 +6,19 @@
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+ 
 </head>
 <body>
-
+    <style type="text/css">
+      html,body{height:100%}body{font-family:'Source Sans Pro',sans-serif !important}.container{width:100%;height:100%;display:column;flex-wrap:wrap;justify-content:center;align-items:center}.control-group{display:block;vertical-align:top;background:#fff;text-align:left;box-shadow:0 1px 2px rgba(0,0,0,0.1);padding:30px !important;width:300px !important;height:1600px !important;margin:10px !important;margin-left:auto !important;margin-right:auto !important}.control{display:block !important;position:relative !important;padding-left:30px !important;margin-bottom:15px !important;cursor:pointer !important;}.control input{position:absolute;z-index:-1;opacity:0}.control__indicator{position:absolute;top:0;left:0;height:16px;width:16px;background:#fff;border:1px solid #ccc;}.control--checkbox .control__indicator{border-radius:3px}.control--radio .control__indicator{border-radius:50%}.control:hover input:not([disabled]) ~ .control__indicator,.control input:focus ~ .control__indicator{border-color:#666}.control input:checked ~ .control__indicator{background:#fff}.control input:disabled ~ .control__indicator{background:#e6e6e6;opacity:.6;pointer-events:none}.control__indicator:after{content:'';position:absolute;display:none;}.control input:checked ~ .control__indicator:after{display:block}.control--checkbox .control__indicator:after{left:5px;top:0;width:5px;height:12px;border:solid #34bb92;border-width:0 2px 2px 0;transform:rotate(45deg)}.control--checkbox input:disabled ~ .control__indicator:after{border-color:#7b7b7b}.control--radio .control__indicator:after{left:5px;top:5px;height:6px;width:6px;border-radius:50%;background:#34bb92}.control--radio input:disabled ~ .control__indicator:after{background:#7b7b7b}.ozel{background:#e6e6e6 !important;color:#7b7b7b !important;margin-bottom:15px !important;width:100% !important}.select{position:relative !important;display:inline-block !important;margin-bottom:15px !important;width:100% !important;}.select select{display:inline-block !important;width:100% !important;cursor:pointer !important;padding:10px 15px !important;outline:0 !important;border:0 !important;border-radius:0 !important;background:#e6e6e6 !important;color:#7b7b7b !important;appearance:none !important;-webkit-appearance:none !important;-moz-appearance:none !important;}.select select::-ms-expand{display:none}.select select:hover,.select select:focus{color:#000;background:#ccc}.select select:disabled{opacity:.5;pointer-events:none}.select__arrow{position:absolute !important;top:16px !important;right:15px !important;width:0 !important;height:0 !important;pointer-events:none !important;border-style:solid !important;border-width:8px 5px 0 5px !important;border-color:#7b7b7b transparent transparent transparent !important;}.select select:hover ~ .select__arrow,.select select:focus ~ .select__arrow{border-top-color:#000}.select select:disabled ~ .select__arrow{border-top-color:#ccc}
+    </style>
 <div class="row">
+    
     <div class="col-lg-2 ">
      
       </div>
   <div class="col-lg-8 ">
-      <table class="table table-striped">
+    <table class="table table-striped d-none d-md-block ">
      
         <thead>
            <tr>
@@ -203,10 +206,103 @@
                 </tr>
           -->
           </table>
+         
   </div>
   <div class="col-lg-2 ">
      
-  </div>
+    </div>
+         <div class="col-lg-12">
+            <div class="d-block d-md-none " >
+                
+         
+                <div class="control-group" style=" border-style: solid;  border-color: #00a565;">
+                  <h1 style="font-weight:300 !important; font-family:'Alegreya Sans',sans-serif !important; margin-top: 0 !important;">AĞAÇ SEÇİNİZ</h1>
+                  <hr>
+                  <label class="control control--radio"><img src="http://www.kahramanlar.com.tr/wp-content/uploads/2018/12/ladinab.jpg" alt="Çam Masif Panel" /> Çam
+                    <input type="radio" name="radio" id="mbCam" value="Cam" checked="checked"/>
+               
+                    <div class="control__indicator"></div>
+                  </label>
+                  <label class="control control--radio"><img src="http://www.kahramanlar.com.tr/wp-content/uploads/2018/12/camab.jpg" alt="Ladin Masif Panel" /> Ladin
+                    <input type="radio" name="radio" value="Ladin" id="mbLadin"/>
+                    <div class="control__indicator"></div>
+                  </label>
+                  <label class="control control--radio"><img src="http://www.kahramanlar.com.tr/wp-content/uploads/2018/12/meseab.jpg" alt="Meşe Masif Panel" /> Meşe
+                    <input type="radio" name="radio" value="Mese" id="mbMese"/>
+                    <div class="control__indicator"></div>
+                  </label>
+                   <label class="control control--radio"><img src="http://www.kahramanlar.com.tr/wp-content/uploads/2018/12/kayinab.jpg" alt="Kayin Masif Panel" /> Kayın
+                    <input type="radio" name="radio" value="Kayin" id="mbKayin"/>
+                    <div class="control__indicator"></div>
+                  </label>
+                   <label class="control control--radio"><img src="http://www.kahramanlar.com.tr/wp-content/uploads/2018/12/irokoab.jpg" alt="İroko Masif Panel" /> İroko
+                    <input type="radio" name="radio" value="Iroko" id="mbIroko"/>
+                    <div class="control__indicator"></div>
+                  </label>
+                   <label class="control control--radio"><img src="http://www.kahramanlar.com.tr/wp-content/uploads/2018/12/kestaneab.jpg" alt="Kestane Masif Panel" /> Kestane
+                    <input type="radio" name="radio" value="Kestane" id="mbKestane"/>
+                    <div class="control__indicator"></div>
+                  </label>
+                  <br>
+                  <hr>
+                  <h1 style="font-weight:300 !important; font-family:'Alegreya Sans',sans-serif !important; margin-top: 0 !important;">Kalite Seçiniz</h1>
+                  <hr>
+                  <label class="control control--radio"> A/B Kalite
+                    <input type="radio" name="radio2" id="mbAB" value="AB" checked="checked"/>
+                    <div class="control__indicator"></div>
+                  </label>
+                  <label class="control control--radio"> B/B Kalite
+                    <input type="radio" name="radio2" id="mbBB" value="BB" />
+                    <div class="control__indicator"></div>
+                  </label>
+                  <p style="font-size:12px">
+                    A/B kalite, bir yüzeyi A kalite, bir yüzeyi B kalite demektir. Yüzeydeki budak sayısı 4'ten az ise A kalitedir.
+                  </p>
+                  <hr>
+                  <h1 style="font-weight:300 !important; font-family:'Alegreya Sans',sans-serif !important; margin-top: 0 !important;">Ölçüleri Seçiniz</h1>
+                  <div class="select">
+                    <select id="selectBox3">
+                      <option >En</option>
+                      <option id="mb20en" value="20">20cm</option>
+                      <option id="mb40en" value="40">40cm</option>
+                      <option id="mb60en" value="60">60cm</option>
+                      <option id="mb80en" value="80">80cm</option>
+                      <option id="mb100en" value="100">100cm</option>
+                      <option id="mb120en" value="120">120cm</option>
+                    </select>
+                    <div class="select__arrow"></div>
+                  </div>
+                  <div class="select">
+                    <select id="selectBox2">
+                      <option >Boy</option>
+                      <option id="mb50boy" value="50">50cm</option>
+                      <option id="mb100boy" value="100">100cm</option>
+                      <option id="mb150boy" value="150">150cm</option>
+                    </select>
+                    <div class="select__arrow"></div>
+                  </div>
+                  <div class="select">
+                    <select id="selectBox">
+                      <option>Kalınlık</option>
+                      <option id="mb18k" value="18">18mm</option>
+                      <option id="mb28k" value="28">28mm</option>
+                    </select>
+                    <div class="select__arrow"></div>
+                  </div>
+                  <hr>
+                  <h2 style="font-weight:300 !important; font-family:'Alegreya Sans',sans-serif !important; margin-top: 0 !important;">Ücret <h2>
+                  <hr>
+                    <div>
+                    
+                    <label class="ozel" id="mbtutar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₺</label>
+                  </div>
+                </div>
+              
+            </div>
+         </div>
+      
+  
+  
     
 </div>
 
@@ -383,6 +479,180 @@
       }
      
     }
+    /*
+    Mobil icin baslangic
+    */
+    var mbKalite="AB";
+    var mbKalinlik=18;
+    var mbEn=20;
+    var mbBoy=50;
+    var mbAgac="Cam";
+    $('#selectBox').on('change', function() {
+    var value = $(this).val();
+    mbKalinlik=value;
+      mbCalculate(mbEn,mbBoy,mbKalinlik,mbAgac,mbKalite);
+    });
+    $('#selectBox2').on('change', function() {
+    var value = $(this).val();
+    mbBoy=value;
+      mbCalculate(mbEn,mbBoy,mbKalinlik,mbAgac,mbKalite);
+    });
+    $('#selectBox3').on('change', function() {
+    var value = $(this).val();
+    mbEn=value;
+      mbCalculate(mbEn,mbBoy,mbKalinlik,mbAgac,mbKalite);
+    });
+    $('input[type=radio][name=radio2]').change(function() {
+      var value = $(this).val();
+      mbKalite=value;
+      mbCalculate(mbEn,mbBoy,mbKalinlik,mbAgac,mbKalite);
+    });
+    $('input[type=radio][name=radio]').change(function() {
+      var value = $(this).val();
+      mbAgac=value;
+      mbCalculate(mbEn,mbBoy,mbKalinlik,mbAgac,mbKalite);
+    });
+    function mbCalculate(mb_En,mb_Boy, mb_Kalinlik,mb_Agac,mb_Kalite){
+      if(mb_Kalite=="AB"){
+          if(mb_Agac=="Cam"){
+            if(mbKalinlik==18){
+              var fiyat=148.72*mb_En*mb_Boy*1.18*1.15;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/cam-masif-panel-ab-kalite-P308938769">'+ test +'</a>' )
+            }else{
+              var fiyat=(220.32*mb_En*mb_Boy*1.18*1.15)+100000;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/cam-masif-panel-ab-kalite-P308938769">'+ test +'</a>' )
+            }
+          }
+          else if(mb_Agac=="Ladin"){
+            if(mbKalinlik==18){
+              var fiyat=126.86*mb_En*mb_Boy*1.18*1.15;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/ladin-masif-panel-1sinif-P309728731">'+ test +'</a>' )
+            }else{
+              var fiyat=(195.79*mb_En*mb_Boy*1.18*1.15)+100000;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/ladin-masif-panel-1sinif-P309728731">'+ test +'</a>' )
+            }
+          }
+          else if(mb_Agac=="Mese"){
+            if(mbKalinlik==18){
+              var fiyat=200.29*mb_En*mb_Boy*1.18*1.15;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/mese-masif-panel-1sinif-P310195161">'+ test +'</a>' )
+            }else{
+              var fiyat=(296.73*mb_En*mb_Boy*1.18*1.15)+100000;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/mese-masif-panel-1sinif-P310195161">'+ test +'</a>' )
+            }
+          }
+          else if(mb_Agac=="Kayin"){
+            if(mbKalinlik==18){
+              var fiyat=161.76*mb_En*mb_Boy*1.18*1.15;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/kayin-masif-panel-1sinif-P309685472">'+ test +'</a>' )
+            }else{
+              var fiyat=(239.64*mb_En*mb_Boy*1.18*1.15)+100000;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/kayin-masif-panel-1sinif-P309685472">'+ test +'</a>' )
+            }
+          }
+          else if(mb_Agac=="Iroko"){
+            if(mbKalinlik==18){
+              var fiyat=339.87*mb_En*mb_Boy*1.18*1.15;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/iroko-masif-panel-1sinif-P310198195">'+ test +'</a>' )
+            }else{
+              var fiyat=(503.51*mb_En*mb_Boy*1.18*1.15);
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/iroko-masif-panel-1sinif-P310198195">'+ test +'</a>' )
+            }
+          }
+          else{
+            if(mbKalinlik==18){
+              var fiyat=167.34*mb_En*mb_Boy*1.18*1.15;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/kestane-masif-panel-1sinif-P310200461">'+ test +'</a>' )
+            }else{
+              var fiyat=(247.91*mb_En*mb_Boy*1.18*1.15)+100000;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/kestane-masif-panel-1sinif-P310200461">'+ test +'</a>' )
+            }
+          }
+      }
+      else{
+        if(mb_Agac=="Cam"){
+            if(mbKalinlik==18){
+              var fiyat=123.93*mb_En*mb_Boy*1.18*1.15;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/masif-ahsap-plaka-cam-2sinif-P309301032">'+ test +'</a>' )
+            }else{
+              var fiyat=(183.60*mb_En*mb_Boy*1.18*1.15)+100000;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/masif-ahsap-plaka-cam-2sinif-P309301032">'+ test +'</a>' )
+            }
+          }
+          else if(mb_Agac=="Ladin"){
+            if(mbKalinlik==18){
+              var fiyat=109.45*mb_En*mb_Boy*1.18*1.15;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/ladin-masif-panel-2sinif-P310193573">'+ test +'</a>' )
+            }else{
+              var fiyat=(170.25*mb_En*mb_Boy*1.18*1.15)+100000;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/ladin-masif-panel-2sinif-P310193573">'+ test +'</a>' )
+            }
+          }
+          else if(mb_Agac=="Mese"){
+            if(mbKalinlik==18){
+              var fiyat=166.91*mb_En*mb_Boy*1.18*1.15;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/mese-masif-panel-2sinif-P310196759">'+ test +'</a>' )
+            }else{
+              var fiyat=(247.27*mb_En*mb_Boy*1.18*1.15)+100000;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/mese-masif-panel-2sinif-P310196759">'+ test +'</a>' )
+            }
+          }
+          else if(mb_Agac=="Kayin"){
+            if(mbKalinlik==18){
+              var fiyat=134.80*mb_En*mb_Boy*1.18*1.15;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/kayin-masif-panel-2sinif-P309722291">'+ test +'</a>' )
+            }else{
+              var fiyat=(199.70*mb_En*mb_Boy*1.18*1.15)+100000;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/kayin-masif-panel-2sinif-P309722291">'+ test +'</a>' )
+            }
+          }
+          else if(mb_Agac=="Iroko"){
+            if(mbKalinlik==18){
+              var fiyat=283.23*mb_En*mb_Boy*1.18*1.15;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/cam-masif-panel-ab-kalite-P308938769">'+ test +'</a>' )
+            }else{
+              var fiyat=(419.59*mb_En*mb_Boy*1.18*1.15);
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/cam-masif-panel-ab-kalite-P308938769">'+ test +'</a>' )
+            }
+          }
+          else{
+            if(mbKalinlik==18){
+              var fiyat=139.45*mb_En*mb_Boy*1.18*1.15;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/kestane-ahsap-plaka-2sinif-P310205284">'+ test +'</a>' )
+            }else{
+              var fiyat=(206.59*mb_En*mb_Boy*1.18*1.15)+100000;
+              var test=(fiyat/10000).toFixed(2)+"₺" ;
+              $('#mbtutar').html('<a target="_blank" rel="noopener noreferrer" href="https://urun.n11.com/mobilya-hirdavati/kestane-ahsap-plaka-2sinif-P310205284">'+ test +'</a>' )
+            }
+          }
+      }
+    }
+    /*
+    Mobil icin bitis
+    */
   $("#opt1").click(function(){
     bbAktif=false;
     aaAktif=true;
